@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enter Your Name</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e9f5ff;
+      color: #333;
+      padding: 40px;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome!</h1>
+  <form action="/submit" method="post">
+    <label for="maths">maths:</label>
+    <input type="text" id="maths" name="maths" required>
+    <label for="data">data:</label>
+    <input type="text" id="data" name="data" required>
+    <label for="algorith">algorith:</label>
+    <input type="text" id="algo" name="algo" required>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
