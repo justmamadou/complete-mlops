@@ -1,1 +1,3 @@
 flask
+mlflow
+ipykernel
